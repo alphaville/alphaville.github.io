@@ -22,7 +22,7 @@
 	<!-- CSS
     ================================================== -->
    <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/magnific-popup.css">
 
@@ -34,6 +34,9 @@
 	================================================== -->
 	<link rel="shortcut icon" href="favicon.png" >
 
+    <!-- Canonical
+	================================================== -->
+   <link rel="canonical" href="http://alphaville.github.io"/>
 </head>
 
 <body>
@@ -96,17 +99,12 @@
 
             <h2>About Me</h2>
 
-            <p>Pantelis was born in Athens, Greece, in 1985. He received his Diploma in Chemical Engineering 
-		in 2007 and an MSc with honours in Applied Mathematics in 2009 from the National Technical 
-		University of Athens. In December 2012, he defended his PhD thesis titled "Modelling and Control 
-		of Biological and Physiological Systems" at the School of Chemical Engineering, 
-		<a href="http://www.ntua.gr">NTU Athens</a>. 
+        <p>I was born in Athens, Greece, in 1985. I received a Diploma in Chemical Engineering 
+		in 2007 and an MSc with honours in Applied Mathematics in 2009 from NTU Athens. In December 2012, I defended my PhD thesis titled "Modelling and Control 
+		of Biological and Physiological Systems" at <a href="http://www.ntua.gr">NTU Athens</a>. 
 		In January 2013 he joined the <a href="http://dysco.imtlucca.it">Dynamical Systems, 
-		Control and Optimization (DYSCO)</a> research unit at <a href="http://www.imtlucca.it">IMT Lucca</a> as a
- 		post-doctoral Fellow. His research interests revolve around Model Predictive Control (MPC), 
-		Optimisation, Sampled-data systems, Impulsive Systems and Stochastic MPC. 
-		His latest work focuses on fractional-order systems and control and the use of 
-		general-purpose GPUs to accelerate numerical optimisation algorithms for large-scale problems.
+		Control and Optimization</a> research unit at <a href="http://www.imtlucca.it">IMT Lucca</a> as a
+ 		post-doctoral Fellow. My research interests revolve around control and optimization.
             </p>
 
             <div class="row">
@@ -116,12 +114,10 @@
                   <h2>Contact Details</h2>
                   <p class="address">
 						   <span>Pantelis Sopasakis</span><br>
-						   <span>ESAT Center for Signal Processing, STADIUS<br>
+						   <span><a href="http://www.esat.kuleuven.be/english">ESAT</a>, <a href="http://www.esat.kuleuven.be/stadius/">STADIUS</a>, <a href="https://www.kuleuven.be/english/">KU Leuven</a><br>
 							 Kasteelpark Arenberg 10,<br>
 							 3001 Leuven, Belgium<br>
-                     </span><br>
-						   
-                     <span>ORCID: <a href="http://orcid.org/0000-0002-4584-2354">0000-0002-4584-2354</a></span>
+                     </span>
 					   </p>
 
                </div>
@@ -298,7 +294,7 @@
    ================================================== -->
    <section id="portfolio">
 
-      <div class="row">
+      <div class="row" align="center">
 
          <div class="twelve columns collapsed">
 
@@ -311,7 +307,7 @@
                   <div class="item-wrap">
 
                      <a href="#modal-01" title="">
-                        <img alt="" src="images/portfolio/coffee.jpg">
+                        <img alt="" src="images/portfolio/jaqpot.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
      				<h5>Jaqpot Quattro</h5>
@@ -324,23 +320,7 @@
                   </div>
           		</div> <!-- item end -->
 
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-02" title="">
-                        <img alt="" src="images/portfolio/console.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Console</h5>
-                              <p>Web Development</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
+              
                <div class="columns portfolio-item">
                   <div class="item-wrap">
 
@@ -375,73 +355,7 @@
                   </div>
           		</div> <!-- item end -->
 
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-05" title="">
-                        <img alt="" src="images/portfolio/farmerboy.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Farmer Boy</h5>
-                              <p>Branding</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-06" title="">
-                        <img alt="" src="images/portfolio/girl.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Girl</h5>
-                              <p>Photography</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-07" title="">
-                        <img alt="" src="images/portfolio/origami.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Origami</h5>
-                              <p>Illustrration</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-08" title="">
-                        <img alt="" src="images/portfolio/retrocam.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Retrocam</h5>
-                              <p>Web Development</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div>  <!-- item end -->
+               
 
             </div> <!-- portfolio-wrapper end -->
 
@@ -453,16 +367,16 @@
 
          <div id="modal-01" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
+<!--		      <img class="scale-with-grid" src="images/portfolio/jaqpot.png" alt="" /> -->
 
 		      <div class="description-box">
-			      <h4>Coffee Cup</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+			      <h4>Jaqpot Quattro</h4>
+			      <p>JAQPOT Quattro is a predictive toxicology platform on the web which combines machine learning, cheminformatics, linked data and web technologies with the OpenTox and eNanomapper APIs to deliver a generic and interoperable solution for drug discovery. </p>
+               <span class="categories"><i class="fa fa-tag"></i>Software, Chemiformatics</span>
 		      </div>
 
             <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
+               <a href="http://test.jaqpot.org" target="_blank">Details</a>              
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
@@ -658,13 +572,11 @@
          <div class="twelve columns">
 
             <ul class="social-links">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+               <li><a href="http://twitter.com/isToxic" title="twitter"><i class="fa fa-twitter"></i></a></li>               
+               <li><a href="https://www.linkedin.com/in/sopasakis" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="http://github.com/alphaville" title="github"><i class="fa fa-github"></i></a></li>
+               <li><a href="http://wordpress.com/mathematix"><i class="fa fa-wordpress"></i></a></li>
+               <li><a href="http://scholar.google.com/citations?user=arqKr8QAAAAJ&hl=en"><i class="fa fa-university"></i></a></li>
             </ul>
 
             <ul class="copyright">
