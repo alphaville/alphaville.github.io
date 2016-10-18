@@ -598,7 +598,7 @@ ul#nav li.current a { color: #F06000; }
 /* \f121 code */
 #call-to-action .header-col h1:before {
    font-family: 'FontAwesome';
-   content: "\f09e";
+   content: "\f0a2";
 	padding-right: 10px;
 	font-size: 72px;
    line-height: 72px;
