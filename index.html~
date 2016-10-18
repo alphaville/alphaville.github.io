@@ -250,8 +250,7 @@
             <div class="row item">
                <div class="twelve columns">
                    <ul>
-<li>P. Sopasakis, D. Bernardini, H. Strauch, S. Bennani and A. Bemporad (2015), <a href="https://controls.papercept.net/conferences/conferences/ECC15/program/ECC15_ContentListWeb_3.html#tha4_04">Sloshing-aware attitude control of impulsively actuated spacecraft</a>, (tutorial paper), European Control Conference (IFAC), Linz, Austria, July 15-17, 2015 (<a href="https://eprints.imtlucca.it/2673/1/ECC15_Sloshing_MPC_v5.pdf">pdf</a>, <a href="http://www.slideshare.net/PantelisSopasakis/sloshingaware-mpc-for-upper-stage-attitude-control">slides</a>, <a href="http://dysco.imtlucca.it/sopasakis/bibtex/PantelisSopasakis_bib.html#SopBer+15a">bibtex</a>).</li>
-                        <li>P. Sopasakis, D. Bernardini, H. Strauch, S. Bennani and A. Bemporad (2015), <a href="https://controls.papercept.net/conferences/conferences/ECC15/program/ECC15_ContentListWeb_3.html#thc4_01">A Hybrid Model Predictive Control Approach to Attitude Control with Minimum-Impulse-Bit Thrusters</a>, European Control Conference (IFAC), Linz, Austria, July 15-17, 2015 (<a href="https://eprints.imtlucca.it/2674/1/ECC15_0340_FI.pdf">pdf</a>, <a href="http://dysco.imtlucca.it/sopasakis/bibtex/PantelisSopasakis_bib.html#SopBer+15b">bibtex</a>, <a href="http://www.slideshare.net/PantelisSopasakis/hmpc-for-upper-stage-attitude-control">slides</a>).</li>
+
                     </ul>
                </div>
             </div> <!-- item end -->
