@@ -235,7 +235,7 @@ ul#nav li.current a { color: #F06000; }
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#resume, .more {
    background: #fff;
    padding-top: 90px;
    padding-bottom: 72px;

@@ -1,0 +1,310 @@
+@inproceedings{SopFrePat16,
+ author={Sopasakis, P. and Freris, N. and Patrinos, P.},
+ title={Accelerated reconstruction of a compressively sampled data stream},
+ year={2016},
+ address={Budapest, Hugary},
+ booktitle={24th European Signal Processing conference (EUSIPCO)}
+}
+
+@inproceedings{SamSopBemPat16,
+ author={Sampathirao, A.K. and Sopasakis, P. and Bemporad, A. and Patrinos, P.},
+ title={Fast parallelizable scenario-based stochastic optimization},
+ year={2016},
+ address={Leuven, Belgium},
+ booktitle={4th European Conference on Computational Optimization},
+ month={September}
+}
+
+@inproceedings{HanSopBemRaiCol15,
+  author = {Hans, C.A. and Sopasakis, P. and Bemporad, A. and Raisch, J. and Reincke-Collon, C.},
+  title = {Scenario-based model predictive operation control of islanded microgrids},
+  year = {2015},
+  booktitle = {54 IEEE Conf. Decision and Control},
+  month = {Dec},
+  address = {Osaka, Japan},
+  url = {https://eprints.imtlucca.it/2780/1/HSBRR2015.pdf}
+}
+
+@inproceedings{SamSopBemPat15,
+  author = {Sampathirao, A.K. and Sopasakis, P. and Bemporad, A. and Patrinos, P.},
+  title = {Distributed solution of stochastic optimal control problems on GPUs},
+  year = {2015},
+  booktitle = {54 IEEE Conf. Decision and Control},
+  month = {Dec},
+  address = {Osaka, Japan},
+  url = {https://eprints.imtlucca.it/2779/1/APG_GPU.pdf}
+}
+
+@article{Jel+15,
+  author = {N. Jeliazkova and C. Chomenides and P. Doganis and B. Fadeel and R. Glafstrom and B. Hardy and J. Hastings and M. Hegi and V. Jeliazkov and N. Kochev and P. Kohonen and C. Munteanu and H. Sarimveis and B. Smeets and P. Sopasakis and G. Tsiliki and D. Vorgimmler and E. Willighagen},
+  year = {2015},
+  title = {The eNanoMapper database for nanomaterial safety information},
+  journal = {Beilstein Journal of Nanotechnology},
+  note = {Under review - provisionally accepted},
+  volume = {6},
+  doi = {10.3762/bjnano.6.165},
+  url = {http://www.beilstein-journals.org/bjnano/single/articleFullText.htm?publicId=2190-4286-6-165},
+  pages = {1609-1634},
+  issn = {2190-4286}
+}
+
+@inproceedings{SamSopBem14,
+  author = {Sampathirao, A.K. and Sopasakis, P. and Bemporad, A.},
+  month = {October},
+  year = 2014,
+  title = {Decentralised hierarchical multi-rate control of large-scale drinking water networks},
+  booktitle = {9th Int. Conf. Critical Information Infrastructures Security},
+  address = {Limassol, Cyprus},
+  url = {http://www.kios.ucy.ac.cy/critis2014/?page_id=223}
+}
+
+@inproceedings{SopBer+15a,
+  author = {P. Sopasakis and D. Bernardini and H. Strauch and S. Bennani and A. Bemporad},
+  year = 2015,
+  title = {Sloshing-aware attitude control of impulsively actuated spacecraft},
+  booktitle = {European Control Conference (IFAC)},
+  note = {Accepted as a tutorial paper},
+  address = {Linz, Austria},
+  month = {July}
+}
+
+@inproceedings{SopBer+15b,
+  author = {P. Sopasakis and D. Bernardini and H. Strauch and S. Bennani and A. Bemporad},
+  year = 2015,
+  title = {A Hybrid Model Predictive Control Approach to Attitude Control with Minimum-Impulse-Bit Thrusters},
+  booktitle = {European Control Conference (IFAC)},
+  note = {Accepted for presentation},
+  address = {Linz, Austria},
+  month = {July}
+}
+
+@article{SopPatSarBem15,
+  author = {P. Sopasakis and P. Patrinos and H. Sarimveis and A. Bemporad},
+  year = {2015},
+  title = {Model predictive control for linear impulsive systems},
+  journal = {IEEE Transactions on Automatic Control},
+  volume = {60},
+  issue = {8},
+  doi = {http://dx.doi.org/10.1109/TAC.2014.2380672},
+  issn = {0018-9286}
+}
+
+@inproceedings{SopNtoSar15,
+  author = {P. Sopasakis and S. Ntouskas and H. Sarimveis},
+  year = 2015,
+  title = {Robust model predictive control for discrete-time fractional-order systems},
+  booktitle = {Mediteranean Conference on Control and Automation (MED 2015, IEEE)},
+  address = {Torremolinos, Spain},
+  month = {June}
+}
+
+@article{SopPatSar14,
+  author = {Sopasakis, P. and  Patrinos, P. and Sarimveis, H.},
+  year = {2014},
+  title = {Robust model predictive control for optimal continuous drug administration},
+  journal = {Computer Methods and Programs in Biomedicine},
+  volume = 116,
+  number = 3,
+  doi = {http://dx.doi.org/10.1016/j.cmpb.2014.06.003}
+}
+
+@article{PatSopSarBem14,
+  author = {Patrinos, P. and Sopasakis, P. and Sarmiveis, H. and Bemporad, A.},
+  title = {Stochastic Model Predictive Control for Constrained Discrete-time {Markovian} Switching Systems},
+  journal = {Automatica},
+  year = 2014,
+  pages = {2504--2514},
+  volume = 50,
+  number = 10,
+  month = {October},
+  doi = {http://dx.doi.org/10.1016/j.automatica.2014.08.031}
+}
+
+@article{TetSopEtAl13,
+  author = {I. Tetko and P. Sopasakis and P. Kunwar and S. Brandmaier and S. Novotarskyi and L. Charochkina and V. Prokopenko and W. Peijenburg},
+  title = { Prioritization of Polybrominated Diphenyl Ethers ({PBDEs}) using the {QSPR}-Thesaurus Web Tool},
+  journal = {Alternatives to Laboratory Animals},
+  volume = {41},
+  pages = {127-135},
+  year = {2013},
+  url = {http://altweb.jhsph.edu/pubs/journals/atla/41_1_Tetko.pdf},
+  pubmedid = {23614549},
+  issn = {0261-1929}
+}
+
+@article{SopPatSar13,
+  author = {P. Sopasakis and P. Patrinos and H. Sarimveis},
+  title = {{MPC} for Sampled-Data Linear Systems: Guaranteeing Continuous-time Positive Invariance},
+  journal = {IEEE Trans. Auto. Contr.},
+  year = {2013},
+  doi = {http://dx.doi.org/10.1109/TAC.2013.2285786},
+  issn = {0018-9286},
+  volume = {59},
+  number = {4},
+  note = {}
+}
+
+@article{SopSar12,
+  author = {P. Sopasakis and H. Sarimveis},
+  title = {An integer programming approach for optimal drug dose computation},
+  journal = {Computer Methods and Programs in Biomedicine},
+  volume = {108},
+  number = {3},
+  year = {2012},
+  pages = {1022-1035},
+  issn = {0169-2607},
+  doi = {http://dx.doi.org/10.1016/j.cmpb.2012.06.008},
+  url = {http://www.sciencedirect.com/science/article/pii/S0169260712001629}
+}
+
+@article{PatSopSar11,
+  title = {A global piecewise smooth Newton method for fast large-scale model predictive control},
+  journal = {Automatica },
+  volume = {47},
+  number = {9},
+  pages = {2016-2022},
+  year = {2011},
+  issn = {0005-1098},
+  doi = {http://dx.doi.org/10.1016/j.automatica.2011.05.024},
+  url = {http://www.sciencedirect.com/science/article/pii/S0005109811002974},
+  author = {Panagiotis Patrinos and Pantelis Sopasakis and Haralambos Sarimveis}
+}
+
+@article{Har+10,
+  year = {2010},
+  journal = {Journal of Cheminformatics},
+  volume = {2},
+  issue = {1},
+  doi = {http://dx.doi.org/10.1186/1758-2946-2-7},
+  title = {Collaborative development of predictive toxicology applications},
+  publisher = {Chemistry Central},
+  author = {Barry Hardy and Nicki Douglas and Christoph Helma and Micha Rautenberg and Nina Jeliazkova and Vedrin Jeliazkov and Ivelina Nikolova and Romualdo Benigni and Olga Tcheremenskaia and Stefan Kramer and Tobias Girschick and Fabian Buchwald and Joerg Wicker and Andreas Karwath and Martin G{\"u}tlein and Andreas Maunz and Haralambos Sarimveis and Georgia Melagraki and Antreas Afantitis and Pantelis Sopasakis and David Gallagher and Vladimir Poroikov and Dmitry Filimonov and Alexey Zakharov and Alexey Lagunin and Tatyana Gloriozova and Sergey Novikov and Natalia Skvortsova and Dmitry Druzhilovsky and Sunil Chawla and Indira Ghosh and Surajit Ray and Hitesh Patel and Sylvia Escher},
+  pages = {1--29}
+}
+
+@inproceedings{SopSar14,
+  author = {Pantelis Sopasakis and Haralambos Sarimveis},
+  year = {2014},
+  title = {Controlled Drug Administration by a Fractional {PID}},
+  booktitle = {19th IFAC World Congress},
+  address = {Cape Town, South Africa}
+}
+
+@inproceedings{SamGroSop+14,
+  author = {Ajay Kumar Sampathirao and Grosso, Juan Manuel and Pantelis Sopasakis and Ocampo-Martinez, Carlos and Alberto Bemporad and Vicenc Puig},
+  year = {2014},
+  title = {Water demand forecasting for the optimal operation of large-scale drinking water networks: The Barcelona Case Study},
+  booktitle = {19th IFAC World Congress},
+  address = {Cape Town, South Africa}
+}
+
+@inproceedings{SopBerBem13,
+  author = {Sopasakis, P. and Bernardini, D. and Bemporad, A.},
+  title = {Constrained Model Predictive Control Based on Reduced-Order Models},
+  year = {2013},
+  month = dec,
+  note = {to appear (accepted for publication)},
+  booktitle = {52nd IEEE Conference on Decision and Control, IEEE},
+  address = {Firenze, Italy},
+  url = {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6761010&tag=1},
+  doi = {http://dx.doi.org/10.1109/CDC.2013.6761010}
+}
+
+@inproceedings{SopSar13a,
+  title = {ToxOtis: A Java Interface to the OpenTox Predictive Toxicology Network},
+  author = {Sopasakis, P. and Sarimveis, H.},
+  year = {2013},
+  booktitle = {4th International CEMEPE and SECOTOX Conference},
+  address = {Mykonos, Greece},
+  url = {http://www.cemepe4.prd.uth.gr/}
+}
+
+@inproceedings{SopSar13b,
+  title = {{JAQPOT} {RESTful} Web Services: An Implementation of the OpenTox Application Programming Interface for On-line Prediction of Toxicological Properties},
+  author = {Sopasakis, P. and Sarimveis, H.},
+  year = {2013},
+  booktitle = {4th International CEMEPE and SECOTOX Conference},
+  address = {Mykonos, Greece},
+  url = {http://www.cemepe4.prd.uth.gr/}
+}
+
+@inproceedings{SopPatSarBem12,
+  author = {Sopasakis, P. and Patrinos, P. and Sarimveis, H. and Bemporad, A.},
+  booktitle = {Decision and Control (CDC), 2012 IEEE 51st Annual Conference on},
+  title = {Model Predictive Control for Linear Impulsive Systems},
+  year = {2012},
+  pages = {5164-5169},
+  doi = {http://dx.doi.org/10.1109/CDC.2012.6426243},
+  issn = {0743-1546}
+}
+
+@inproceedings{SopPatGiaSar11,
+  title = {Physiologically Based Pharmacokinetic Modeling and Predictive Control: An integrated approach for optimal drug administration },
+  editor = {E.N. Pistikopoulos, M.C. Georgiadis and A.C. Kokossis},
+  booktitle = {21st European Symposium on Computer Aided Process Engineering},
+  publisher = {Elsevier},
+  year = {2011},
+  volume = {29},
+  pages = {1490 - 1494},
+  series = {Computer Aided Chemical Engineering },
+  issn = {1570-7946},
+  doi = {http://dx.doi.org/10.1016/B978-0-444-54298-4.50077-5},
+  url = {http://www.sciencedirect.com/science/article/pii/B9780444542984500775},
+  author = {Pantelis Sopasakis and Panagiotis Patrinos and Stefania Giannikou and Haralambos Sarimveis}
+}
+
+@inproceedings{PatSopSar11b,
+  author = {Panagiotis Patrinos and Pantelis Sopasakis and Haralambos Sarimveis},
+  year = {2011},
+  title = {Stochastic Model Predictive Control for Constrained Networked Control Systems with Random Time Delay},
+  booktitle = {18th IFAC World Congress},
+  address = {Milano, Italy},
+  doi = {http://dx.doi.org/10.3182/20110828-6-IT-1002.02575},
+  pages = {12626-12631},
+  editor = {Bittanti, S. and Cenedese, A. and Zampieri, S.}
+}
+
+@inproceedings{MelSopAfaSar10,
+  title = {Consensus {QSAR} Modeling and domain of applicability: An integrated approach},
+  author = {Melagraki, G. and Sopasakis, P. and Afantitis, A. and Sarimveis, H.},
+  booktitle = {18th European Symposium on Quantitative Structure-Activity Relationships},
+  address = {Rhodes, Greece},
+  year = {2010}
+}
+
+@inproceedings{SarSopAfaMel09,
+  author = {Sarimveis, H. and Sopasakis, P. and Afantitis, A. and Melagraki, G.},
+  title = {A Model Predictive Control Approach for Optimal Drug Administration},
+  booktitle = {ICheaP-9 : The 9th international conference on Chemical and Process Engineering},
+  address = {Rome, Italy},
+  year = {2009}
+}
+
+@phdthesis{SopPhD12,
+  author = {Sopasakis, P.},
+  school = {National Technical University of Athens, School of Chemical Engineering},
+  year = {2012},
+  month = dec,
+  title = {Modelling and Control of Biological and Physiological Systems},
+  url = {http://dspace.lib.ntua.gr/handle/123456789/7591},
+  language = {greek}
+}
+
+@mastersthesis{SopMSc09,
+  author = {Sopasakis, P.},
+  title = {Study of the observability of nonlinear systems and observer design using the Frobenius Theorem},
+  school = {National Technical University of Athens, School of Applied Mathematical and Physical Sciences},
+  year = {2009},
+  month = {June},
+  address = {Athens, Greece},
+  url = {http://www.slideshare.net/PantelisSopasakis/nonlinear-observer-design},
+  language = {greek}
+}
+
+@mastersthesis{SopDipl07,
+  author = {Sopasakis, P.},
+  title = {Fuzzy Model Predictive Control : Development of a methodology for the computation of a near-optimal explicit control law for nonlinear systems that are subject to constraints},
+  school = {National Technical University of Athens, School of Chemical Engineering},
+  year = {2007},
+  address = {Athens, Greece}
+}
