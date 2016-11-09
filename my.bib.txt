@@ -1,3 +1,36 @@
+@unpublished{SamSopBemPat17a,
+  author={A.K. Sampathirao and P. Sopasakis and A. Bemporad and P. Patrinos},
+  title={Proximal Quasi-Newton Methods for Scenario-based Stochastic Optimal Control},
+  note={Submitted to IFAC WC 2017},
+  year={2016}
+}
+
+@unpublished{SamSopBemPat17b,
+  author={A.K. Sampathirao and P. Sopasakis and A. Bemporad and P. Patrinos},
+  title={GPU-accelerated stochastic predictive control of drinking water networks},
+  year={2016},
+  url={http://arxiv.org/abs/1604.01074},
+  note={provisionally accepted for publication in IEEE CST}
+  }
+
+@unpublished{SopHerPatBem17,
+    author={P. Sopasakis and D. Herceg and P. Patrinos and A. Bemporad},
+    title={Stochastic economic model predictive control for Markovian switching systems},
+    year={2016},
+    url={https://arxiv.org/abs/1610.10014},
+    note={Submitted to IFAC WC 2017}
+}
+
+@article{SopSar17,
+ author={P. Sopasakis and H. Sarimveis},
+ title={Stabilising Model predictive control for discrete-time fractional-order systems},
+ year={2017},
+ journal={Automatica},
+ volume={75},
+ number={1},
+ pages={24-31}
+}
+
 @inproceedings{SopFrePat16,
  author={Sopasakis, P. and Freris, N. and Patrinos, P.},
  title={Accelerated reconstruction of a compressively sampled data stream},
@@ -51,11 +84,14 @@
 @inproceedings{SamSopBem14,
   author = {Sampathirao, A.K. and Sopasakis, P. and Bemporad, A.},
   month = {October},
-  year = 2014,
+  year = {2014},
   title = {Decentralised hierarchical multi-rate control of large-scale drinking water networks},
   booktitle = {9th Int. Conf. Critical Information Infrastructures Security},
+  volume = {8985},
+  series = {Lecture Notes in Computer Science (LNCS)},
   address = {Limassol, Cyprus},
-  url = {http://www.kios.ucy.ac.cy/critis2014/?page_id=223}
+  url = {http://www.kios.ucy.ac.cy/critis2014/?page_id=223},
+  doi = {10.1007/978-3-319-31664-2_6}
 }
 
 @inproceedings{SopBer+15a,

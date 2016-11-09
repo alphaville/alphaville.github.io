@@ -1,0 +1,10 @@
+page 2, under (5):
+ - Should be $Q_{\xi_k} \in \mathbb{S}_{+}^{n_x}$ instead of $Q_{\xi_k} \mathbb{S}_{+}^{n_x}$,
+   i.e., \in is missing
+page 4, functions f(\mathbf{x}) and g(H\mathbf{x}):
+ - there is \sum_{k=0}^{N-1} missing
+page 4, Algorithm 1:
+ - for matrices $\Phi_k^i$ and $D_k^i$ the equals symbol (=) should be \leftarrow (or \gets) instead
+page 4, Algorithm 2:
+ - It should be $i=1,\ldots, \mu(k)$ instead of $i\in\mu(k)$
+
