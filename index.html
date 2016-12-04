@@ -84,28 +84,44 @@
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/magnific-popup.css">
 
+
+	<link rel="stylesheet" href="css/vex.css" />
+	<link rel="stylesheet" href="css/vex.css" />
+    <link rel="stylesheet" href="css/vex-theme-default.css" />
+    <link rel="stylesheet" href="css/vex-theme-os.css" />
+    <link rel="stylesheet" href="css/vex-theme-plain.css" />
+    <link rel="stylesheet" href="css/vex-theme-wireframe.css" />
+    <link rel="stylesheet" href="css/vex-theme-flat-attack.css" />
+    <link rel="stylesheet" href="css/vex-theme-top.css" />
+    <link rel="stylesheet" href="css/vex-theme-bottom-right-corner.css" />
+
    <!-- Script
    ================================================== -->
-	<script src="js/modernizr.js"></script>
-<script src="bibtexParse.js"></script>
-  <script type="text/javascript">
+    <script src="js/vex.combined.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="bibtexParse.js"></script>
+    <script type="text/javascript">
+  
   function httpGet(theUrl)
   {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
     xmlHttp.send( null );
     return xmlHttp.responseText;
-  } // end: httpGet
+  } 
 
   const bibstring = httpGet("./my.bib.txt")
   const s = bibtexParse.toJSON(bibstring);
 
   function showBib(id){
-    console.log(id)
-    alert(getBibString(id))
+
+
+    vex.dialog.alert({
+      message: getBibString(id),
+      className: 'vex-theme-flat-attack',
+	  overlayClassName: 'pre'
+    })
   }
-
-
   </script>
 
    <!-- Favicons
@@ -115,6 +131,15 @@
     <!-- Canonical
 	================================================== -->
    <link rel="canonical" href="http://alphaville.github.io"/>
+
+<style>
+.vex-dialog-message {    
+    font-family: monospace;
+    white-space: pre-wrap;
+	line-height: 1.0em;
+	font-size: 70%;
+}
+</style>
 </head>
 
 <body>
@@ -237,6 +262,7 @@
          <div class="nine columns main-col">
             <div class="row item">
                <div class="twelve columns">
+
                    <ul>
                       <li>A.K. Sampathirao, P. Sopasakis, A. Bemporad and P. Patrinos,
                         <a>Proximal Quasi-Newton Methods for Scenario-based Stochastic Optimal Control</a>,
