@@ -95,6 +95,17 @@
     <link rel="stylesheet" href="css/vex-theme-top.css" />
     <link rel="stylesheet" href="css/vex-theme-bottom-right-corner.css" />
 
+
+	<style>
+	.vex-pre {    
+   	 	font-family: monospace;
+   	 	white-space: pre-wrap;
+		line-height: 1.1em;
+		font-size: 60%;
+		margin-bottom: 10px;
+	}
+	</style>
+
    <!-- Script
    ================================================== -->
     <script src="js/vex.combined.min.js"></script>
@@ -113,13 +124,49 @@
   const bibstring = httpGet("./my.bib.txt")
   const s = bibtexParse.toJSON(bibstring);
 
+
+function copyTextToClipboard(text) {
+  var textArea = document.createElement("textarea");
+  textArea.style.position = 'fixed';
+  textArea.style.top = 0;
+  textArea.style.left = 0;
+  textArea.style.width = '2em';
+  textArea.style.height = '2em';
+  textArea.style.padding = 0;
+  textArea.style.border = 'none';
+  textArea.style.outline = 'none';
+  textArea.style.boxShadow = 'none';
+  textArea.style.background = 'transparent';
+  textArea.value = text;
+  document.body.appendChild(textArea);
+  textArea.select();
+  try {
+    var successful = document.execCommand('copy');
+    var msg = successful ? 'successful' : 'unsuccessful';
+    console.log('Copying text command was ' + msg);
+  } catch (err) {
+    console.log('Oops, unable to copy');
+  }
+  document.body.removeChild(textArea);
+}
+
+
   function showBib(id){
+    var bib = getBibString(id);
+	vex.dialog.buttons.YES.text = 'OK';
+	vex.dialog.buttons.NO.text = 'Copy';
+    vex.dialog.confirm({
+       message: bib,
+       className: 'vex-theme-flat-attack',
+	   contentClassName: 'vex-pre',
+       callback: function (value) {
+        if (value) {
 
-
-    vex.dialog.alert({
-      message: getBibString(id),
-      className: 'vex-theme-flat-attack',
-	  overlayClassName: 'pre'
+        } else {
+			console.log('Copied BibTeX to clipboard:\n'+bib);
+			copyTextToClipboard(bib);
+        }
+       }
     })
   }
   </script>
@@ -132,14 +179,6 @@
 	================================================== -->
    <link rel="canonical" href="http://alphaville.github.io"/>
 
-<style>
-.vex-dialog-message {    
-    font-family: monospace;
-    white-space: pre-wrap;
-	line-height: 1.0em;
-	font-size: 70%;
-}
-</style>
 </head>
 
 <body>
@@ -320,7 +359,7 @@
                       <li>P. Sopasakis, D. Herceg, P. Patrinos and A. Bemporad,
                         <a>Stochastic economic model predictive control for Markovian switching systems</a>,
                         IFAC World Congress 2017 (submitted)
-                        (<a href="https://arxiv.org/abs/1610.10014" target="_blank">arxiv</a>
+                        (<a href="https://arxiv.org/abs/1610.10014" target="_blank">arxiv</a>,
                          <a href="javascript:showBib('SopHerPatBem17')">bibtex</a>).</li>
                       <li>P. Patrinos, P. Sopasakis, H. Sarimveis, A. Bemporad (2014),
                         <a href="http://www.sciencedirect.com/science/article/pii/S0005109814003471#" target="_blank">Stochastic Model Predictive Control for Constrained Discrete-time Markovian Switching Systems</a>, Automatica 50(10), 2504-2514, (<a href="http://www.sciencedirect.com/science/article/pii/S0005109814003471#" target="_blank">doi</a>,
