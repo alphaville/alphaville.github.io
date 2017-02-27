@@ -1,3 +1,10 @@
+@unpublished{HerNtoSopDokMacSarPat17,
+  author={D. Herceg and S. Ntouskas and P. Sopasakis and A. Dokoumetzidis and P. Macheras and H. Sarimveis and P. Patrinos},
+  title={Proximal Quasi-Newton Methods for Scenario-based Stochastic Optimal Control},
+  note={Submitted to IFAC WC 2017 (accepted)},
+  year={2016}
+}
+
 @unpublished{SamSopBemPat17a,
   author={A.K. Sampathirao and P. Sopasakis and A. Bemporad and P. Patrinos},
   title={Proximal Quasi-Newton Methods for Scenario-based Stochastic Optimal Control},
@@ -5,12 +12,13 @@
   year={2016}
 }
 
-@unpublished{SamSopBemPat17b,
+@article{SamSopBemPat17b,
   author={A.K. Sampathirao and P. Sopasakis and A. Bemporad and P. Patrinos},
   title={GPU-accelerated stochastic predictive control of drinking water networks},
-  year={2016},
+  year={2017},
   url={http://arxiv.org/abs/1604.01074},
-  note={provisionally accepted for publication in IEEE CST}
+  journal={IEEE Transactions on Control Systems Technology},
+  note={In Press}
   }
 
 @unpublished{SopHerPatBem17,
