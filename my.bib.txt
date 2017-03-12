@@ -1,3 +1,11 @@
+@unpublished{SopTheSuyPat17,
+author="P. Sopasakis and A. Themelis and J. Suykens and P. Patrinos",
+title="A Primal-Dual Line Search Method and Applications in Image Processing",
+year="2017",
+note="Submitted to EUSIPCO (European Signal Processing Conference)",
+address="Kos, Greece"
+}
+
 @unpublished{HerNtoSopDokMacSarPat17,
   author={D. Herceg and S. Ntouskas and P. Sopasakis and A. Dokoumetzidis and P. Macheras and H. Sarimveis and P. Patrinos},
   title={Proximal Quasi-Newton Methods for Scenario-based Stochastic Optimal Control},
