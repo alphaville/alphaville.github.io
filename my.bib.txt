@@ -1,3 +1,11 @@
+@unpublished{HerSopBemPat17,
+author="D. Herceg and P. Sopasakis and A. Bemporad and P. Patrinos",
+title="Risk-averse model predictive control",
+year="2017",
+note="Submitted to IEEE CDC",
+address="Melbourne, Australia"
+}
+
 @unpublished{SopTheSuyPat17,
 author="P. Sopasakis and A. Themelis and J. Suykens and P. Patrinos",
 title="A Primal-Dual Line Search Method and Applications in Image Processing",
