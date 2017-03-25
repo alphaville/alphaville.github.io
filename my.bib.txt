@@ -158,6 +158,18 @@ address="Kos, Greece"
   month = {June}
 }
 
+@article{SopPatSar14b,
+  author = {Sopasakis, P. and Patrinos, P. and Sarimveis, H.},
+  year = {2014},
+  title = {MPC for Sampled-Data Linear Systems: Guaranteeing Constraint Satisfaction in Continuous-Time},
+  journal = {IEEE Transactions on Automatic Control},
+  volume = {59},
+  number = {4},
+  pages = {1088 -- 1093},
+  doi = {10.1109/TAC.2013.2285786}
+}
+  
+
 @article{SopPatSar14,
   author = {Sopasakis, P. and  Patrinos, P. and Sarimveis, H.},
   year = {2014},
