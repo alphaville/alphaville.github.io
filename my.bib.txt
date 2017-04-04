@@ -3,7 +3,8 @@ author="D. Herceg and P. Sopasakis and A. Bemporad and P. Patrinos",
 title="Risk-averse model predictive control",
 year="2017",
 note="Submitted to IEEE CDC",
-address="Melbourne, Australia"
+address="Melbourne, Australia",
+url="https://arxiv.org/abs/1704.00342"
 }
 
 @unpublished{SopTheSuyPat17,
