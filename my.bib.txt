@@ -1,3 +1,10 @@
+@inproceedings{DomGeoSop+17,
+author="D. Herceg and G. Georgoulas and P. Sopasakis and M. Castano and P. Patrinos and A. Bemporad and J. Niemi and G. Nikolakopoulos",
+title= "Data-driven Modelling, Learning and Stochastic Predictive Control for the Steel Industry",
+year="2017",
+note="Submitted to IEEE MED"
+}
+
 @unpublished{HerSopBemPat17,
 author="D. Herceg and P. Sopasakis and A. Bemporad and P. Patrinos",
 title="Risk-averse model predictive control",
