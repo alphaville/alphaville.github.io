@@ -558,7 +558,13 @@ function copyTextToClipboard(text) {
               <a href="http://www.esat.kuleuven.be/english">ESAT</a>, KU Leuven.
             P&amp;O Eagle is a drone with computer vision and navigation capabilities. </p>
 
-          <!-- <center>
+	   <ol>
+		<li><a href="files/quadcopter-slides.pdf">Slides</a></li>
+		<li><a href="https://www.youtube.com/watch?v=SevyDm6nKXE">Series of video lectures</a></li>
+		<li><a href="javascript:alert('coming soon')">Gallery</a></li>
+	   </ol>        
+  
+	<!-- <center>
             <video width="380" autoplay muted loop controls>
                  <source src="eagle-v2-short.mp4" type="video/mp4">
                   Your browser does not support the video tag.
@@ -607,6 +613,22 @@ function copyTextToClipboard(text) {
             <!-- portfolio-wrapper -->
             <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
 
+
+	      <div class="columns portfolio-item">
+                 <div class="item-wrap">
+                    <a href="#modal-00" title="">
+                       <img alt="" src="images/portfolio/geometry.jpg">
+                       <div class="overlay">
+                          <div class="portfolio-item-meta">
+                         <h5>SuperSCS</h5>
+                             <p>Super-fast conic solver</p>
+                      </div>
+                       </div>
+                       <div class="link-icon"><i class="icon-plus"></i></div>
+                    </a>
+                 </div>
+              </div> <!-- item end -->
+
               <div class="columns portfolio-item">
                  <div class="item-wrap">
                     <a href="#modal-01" title="">
@@ -637,7 +659,7 @@ function copyTextToClipboard(text) {
                      </a>
 
                   </div>
-          		</div> <!-- item end -->
+              </div> <!-- item end -->
 
 
               <div class="columns portfolio-item">
@@ -673,12 +695,46 @@ function copyTextToClipboard(text) {
              </div> <!-- item end -->
 
 
+             <div class="columns portfolio-item">
+                 <div class="item-wrap">
+                    <a href="#modal-05" title="">
+                       <img alt="" src="images/portfolio/robo.jpg">
+                       <div class="overlay">
+                          <div class="portfolio-item-meta">
+                           <h5>Embedded MPC</h5>
+                             <p>For Robotics</p>
+                      </div>
+                       </div>
+                       <div class="link-icon"><i class="icon-plus"></i></div>
+                    </a>
+                 </div>
+             </div> <!-- item end -->
+
             </div> <!-- portfolio-wrapper end -->
          </div> <!-- twelve columns end -->
 
 
          <!-- Modal Popup
 	      ============================================= -->
+
+	<!-- MODAL 00: JQ  -->
+        <div id="modal-00" class="popup-modal mfp-hide">
+         <div class="description-box">
+           <h4>SuperSCS</h4>
+           <p>We proudly present <b>SuperSCS</b>: a super-(linearly) fast solver for conic 
+              optimization problems. Optimization software often cast convex problems into 
+              conic ones and delegate their solution to solvers in the backend. 
+	      Based on the implementation of the popular solver <b>SCS</b>, we implemented
+              a new algorithm which leads to manifold speed-ups.</p>
+              <span class="categories"><i class="fa fa-tag"></i>Software, Optimization</span>
+         </div>
+
+           <div class="link-box">
+              <a href="http://kul-forbes.github.io/scs" target="_blank">Details</a>
+              <a class="popup-modal-dismiss">Close</a>
+           </div>
+       </div><!-- modal-04 End -->
+
 
         <!-- MODAL 01 : GPU computations -->
          <div id="modal-01" class="popup-modal mfp-hide">
@@ -689,7 +745,7 @@ function copyTextToClipboard(text) {
 		      </div>
 
             <div class="link-box">
-               <a href="https://github.com/ajaykumarsampath/Effinet-cuda">Details</a>
+               <a href="https://github.com/gpuengineering/rapidnet">Details</a>
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 	      </div><!-- modal-01 End -->
@@ -707,7 +763,7 @@ function copyTextToClipboard(text) {
             </div>
 	      </div><!-- modal-02 End -->
 
-        <!-- -->
+        <!-- MODAL 3: DWN -->
          <div id="modal-03" class="popup-modal mfp-hide">
 		      <div class="description-box">
 			      <h4>Control of Water Networks</h4>
@@ -730,7 +786,7 @@ function copyTextToClipboard(text) {
             </div>
 	      </div><!-- modal-03 End -->
 
-
+	<!-- MODAL 04: JQ  -->
         <div id="modal-04" class="popup-modal mfp-hide">
          <div class="description-box">
            <h4>Jaqpot Quattro</h4>
@@ -744,6 +800,22 @@ function copyTextToClipboard(text) {
            </div>
        </div><!-- modal-04 End -->
 
+        <!-- MODAL 05: Embedded MPC  -->
+        <div id="modal-05" class="popup-modal mfp-hide">
+         <div class="description-box">
+           <h4>Embedded Nonlinear MPC</h4>
+           <p>This is an ANSI C embedded control framework for nonlinear model predictive control
+              which implements a very fast nonconvex optimization solver with convergence guarantees
+              that significantly outperforms SQP/SCP approaches. It is particularly suitable for
+              robotic applications.</p>
+              <span class="categories"><i class="fa fa-tag"></i>Software, Optimization, Control</span>
+         </div>
+
+           <div class="link-box">
+              <a href="https://github.com/kul-forbes/EmbeddedMPC" target="_blank">Details</a>
+            <a class="popup-modal-dismiss">Close</a>
+           </div>
+       </div><!-- modal-05 End -->
 
 
       </div> <!-- row End -->
