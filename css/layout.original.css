@@ -235,49 +235,97 @@ ul#nav li.current a { color: #F06000; }
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
-#resume, .more {
+#pubs, .more {
    background: #fff;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#pubs a, #pubs a:visited  { color: #11ABB0; }
+#pubs a:hover, #pubs a:focus { color: #313131; }
 
-#resume h2 {
+#pubs h2 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#resume h2 span {
+#pubs h2 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
-#resume h3 {
+#pubs h3 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
 }
 
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#pubs .header-col { padding-top: 9px; }
+#pubs .main-col { padding-right: 10%; }
 
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
-#resume .info {
+#pubs .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume .info span {
+#pubs .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#resume .date {
+#pubs .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+
+
+/* ------------------------------------------------------------------ */
+/* Software projects
+/* ------------------------------------------------------------------ */
+
+#swprojects, .more {
+   background: #eeeeee;
+   padding-top: 90px;
+   padding-bottom: 10px;
+   overflow: hidden;
+}
+
+#swprojects a, #swprojects a:visited  { color: #11ABB0; }
+#swprojects a:hover, #swprojects a:focus { color: #313131; }
+
+#swprojects h2 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#swprojects h2 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#swprojects h3 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+}
+
+#swprojects .header-col { padding-top: 9px; }
+#swprojects .main-col { padding-right: 10%; }
+
+#swprojects .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#swprojects .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#swprojects .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
@@ -484,6 +532,7 @@ ul#nav li.current a { color: #F06000; }
    background: #fff;
    overflow: hidden;
    position: relative;
+   margin-bottom: 20pt;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -550,7 +599,7 @@ ul#nav li.current a { color: #F06000; }
 .portfolio-item .portfolio-item-meta p {
    font: 12px/18px 'opensans-light', sans-serif;
    color: #c6c7c7;
-   margin-bottom: 0;
+   margin-bottom: 10pt;
 }
 
 /* on hover */
