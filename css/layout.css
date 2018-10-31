@@ -245,17 +245,18 @@ ul#nav li.current a { color: #F06000; }
 #resume a, #resume a:visited  { color: #11ABB0; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
-#resume h1 {
+#resume h2 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#resume h1 span {
+#resume h2 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
 #resume h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -296,17 +297,19 @@ ul#nav li.current a { color: #F06000; }
 #news a, #news a:visited  { color: #11ABB0; }
 #news a:hover, #news a:focus { color: #313131; }
 
-#news h1 {
+#news h2 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#news h1 span {
+#news h2 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
 #news h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   font: 18px/24px 'opensans-bold', sans-serif;
 }
 
 #news .header-col { padding-top: 9px; }
@@ -466,7 +469,7 @@ ul#nav li.current a { color: #F06000; }
    padding-top: 90px;
    padding-bottom: 60px;
 }
-#portfolio h1 {
+#portfolio h2 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;

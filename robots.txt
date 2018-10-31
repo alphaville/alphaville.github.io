@@ -1,0 +1,6 @@
+# robots.txt for https://alphaville.github.io
+
+User-agent: *
+Disallow: /js/
+Disallow: /errata/
+Sitemap: https://alphaville.github.io/sitemap.xml
