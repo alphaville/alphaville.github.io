@@ -1,39 +1,61 @@
 @inproceedings{DomGeoSop+17,
-author="D. Herceg and G. Georgoulas and P. Sopasakis and M. Castano and P. Patrinos and A. Bemporad and J. Niemi and G. Nikolakopoulos",
-title= "Data-driven Modelling, Learning and Stochastic Predictive Control for the Steel Industry",
-year="2017",
-note="Submitted to IEEE MED"
+author={D. Herceg and G. Georgoulas and P. Sopasakis and M. Castano and P. Patrinos and A. Bemporad and J. Niemi and G. Nikolakopoulos},
+title= {Data-driven Modelling, Learning and Stochastic Predictive Control for the Steel Industry},
+year={2017}, 
+volume={}, 
+number={}, 
+pages={1361-1366}, 
+booktitle={2017 25th Mediterranean Conference on Control and Automation (MED)},
+doi={10.1109/MED.2017.7984308}, 
+ISSN={2473-3504}, 
+month={July}
 }
 
-@unpublished{HerSopBemPat17,
-author="D. Herceg and P. Sopasakis and A. Bemporad and P. Patrinos",
+@article{SopHerBemPat18,
+author="P. Sopasakis and D. Herceg and A. Bemporad and P. Patrinos",
 title="Risk-averse model predictive control",
-year="2017",
-note="Submitted to IEEE CDC",
-address="Melbourne, Australia",
+year="2018",
+journal = "Automatica",
+note="Accepted for publication",
 url="https://arxiv.org/abs/1704.00342"
 }
 
-@unpublished{SopTheSuyPat17,
+@inproceedings{SopTheSuyPat17,
 author="P. Sopasakis and A. Themelis and J. Suykens and P. Patrinos",
 title="A Primal-Dual Line Search Method and Applications in Image Processing",
 year="2017",
-note="Submitted to EUSIPCO (European Signal Processing Conference)",
+note="European Signal Processing Conference (EUSIPCO)",
 address="Kos, Greece"
 }
 
-@unpublished{HerNtoSopDokMacSarPat17,
-  author={D. Herceg and S. Ntouskas and P. Sopasakis and A. Dokoumetzidis and P. Macheras and H. Sarimveis and P. Patrinos},
-  title={Proximal Quasi-Newton Methods for Scenario-based Stochastic Optimal Control},
-  note={Submitted to IFAC WC 2017 (accepted)},
-  year={2016}
+@article{HerNtoSopDokMacSarPat17,
+title = {Modeling and administration scheduling of fractional-order pharmacokinetic systems},
+journal = {IFAC-PapersOnLine},
+volume = {50},
+number = {1},
+pages = {9742 - 9747},
+year = {2017},
+note = {20th IFAC World Congress},
+issn = {2405-8963},
+doi = {https://doi.org/10.1016/j.ifacol.2017.08.2178},
+url = {http://www.sciencedirect.com/science/article/pii/S2405896317328471},
+author = {D. Herceg and S. Ntouskas and P. Sopasakis and A. Dokoumetzidis and P. Macheras and H. Sarimveis and P. Patrinos},
+keywords = {Fractional-order systems, Pharmacokinetics, Drug administration}
 }
 
-@unpublished{SamSopBemPat17a,
+
+@article{SamSopBemPat17a,
   author={A.K. Sampathirao and P. Sopasakis and A. Bemporad and P. Patrinos},
   title={Proximal Quasi-Newton Methods for Scenario-based Stochastic Optimal Control},
-  note={Submitted to IFAC WC 2017},
-  year={2016}
+  journal = {IFAC-PapersOnLine},
+  year={2017},
+  volume = {50},
+  number = {1},
+  pages = {11865 - 11870},
+  keywords = {Convex optimization, stochastic optimal control, large-scale optimization, proximal Newton methods},
+  issn = {2405-8963},
+  doi = {https://doi.org/10.1016/j.ifacol.2017.08.1372},
+  url = {http://www.sciencedirect.com/science/article/pii/S2405896317319146}
 }
 
 @article{SamSopBemPat17b,
@@ -45,10 +67,15 @@ address="Kos, Greece"
   note={In Press}
   }
 
-@unpublished{SopHerPatBem17,
+@article{SopHerPatBem17,
     author={P. Sopasakis and D. Herceg and P. Patrinos and A. Bemporad},
     title={Stochastic economic model predictive control for Markovian switching systems},
-    year={2016},
+    year={2017},
+    journal = {IFAC-PapersOnLine},
+    year={2017},
+    volume = {50},
+    number = {1},
+    pages = {524-530},
     url={https://arxiv.org/abs/1610.10014},
     note={Submitted to IFAC WC 2017}
 }
