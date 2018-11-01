@@ -113,7 +113,7 @@
             function httpGet(theUrl)
             {
             var xmlHttp = new XMLHttpRequest();
-            xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+            xmlHttp.open( "GET", theUrl, true ); // false for synchronous request
             xmlHttp.send( null );
             return xmlHttp.responseText;
             } 
@@ -301,7 +301,7 @@
                     <div class="row item">
                         <div class="twelve columns">
 
-                            <img alt="Optimisation Research" title="Optimisation research: topics" src="images/optimization.png" width=60%>
+                            <img alt="Optimisation Research" title="Optimisation research: topics" src="images/optimization.png" style="width:60%">
 
                             <ul>
                                 <li>P. Sopasakis, A. Themelis, J. Suykens and P. Patrinos,
@@ -358,7 +358,7 @@
                     <div class="row item">
                         <div class="twelve columns">
 
-                            <img alt="MPC research" title="MPC research: topics" src="images/mpc.png" width=60%>
+                            <img alt="MPC research" title="MPC research: topics" src="images/mpc.png" style="width:60%">
 
                             <ul>
                                 <li>P. Sopasakis, D. Herceg, A. Bemporad and P. Patrinos,
@@ -447,7 +447,7 @@
                 <div class="nine columns main-col">
                     <div class="row item">
                         <div class="twelve columns">
-                            <img alt="Medical research" title="Medical research: topics" src="images/bio.png" width=60%> <!-- image: biomedical applications -->
+                            <img alt="Medical research" title="Medical research: topics" src="images/bio.png" style="width:60%"> <!-- image: biomedical applications -->
                             <ul>
                                 <li>P. Sopasakis, H. Sarimveis, P. Macheras, A. Dokoumetzidis, 
                                     <a href="https://link.springer.com/article/10.1007/s10928-017-9547-8">Fractional calculus in pharmacokinetics</a>,
@@ -599,8 +599,9 @@
                     </ol>        
 
                     <p>Here is a video presentation made by students...</p>
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/UlEj1UIEPnw" 
-                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    <iframe style="width:100%;height:315px" 
+                            src="https://www.youtube.com/embed/UlEj1UIEPnw" 
+                            frameborder="0" 
                             allowfullscreen></iframe>
                     <hr/>  
                     <h3>Control Systems, IMT Lucca</h3>                    
@@ -669,9 +670,14 @@
                     <div class="row item">
                         <div class="twelve columns">
                             <h2>SuperSCS: Fast and accurate conic solver</h2>
-                            <p>SuperSCS is a fast solver for conic problems of the form</p>
+                            <p><a href="https://kul-forbes.github.io/scs" target="_blank">SuperSCS</a> 
+                                is a fast solver for large-scale conic problems of the form</p>
                             <p class="formulaDsp">
-                                \begin{eqnarray*} &amp;&amp;\mathrm{Minimize}\ c&#39; x \\ &amp;&amp;Ax + s = b\\ &amp;&amp;s\in\mathcal{K}, \end{eqnarray*}
+                                \begin{eqnarray*} &amp;&amp;
+                                \mathrm{Minimize}\ c&#39; x 
+                                \\ &amp;&amp;Ax + s = b\\ 
+                                &amp;&amp;s\in\mathcal{K}, 
+                                \end{eqnarray*}
                             </p>
                             <p>where \(A\in\mathbb{R}^{m\times n}\) is a 
                                 <a href="https://kul-forbes.github.io/scs/page_sparse_matrices.html" target="_blank">
@@ -686,6 +692,61 @@
                     </div> <!-- item end -->
                 </div> <!-- main-col end -->
             </div> <!-- End Optimisation -->
+
+
+            <!-- Risk Averse MPC
+            ============================================= -->
+            <div class="row education">
+                <div class="three columns header-col">
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+                            <a href="#modal-risk" title="">
+                                <img alt="Risk Averse MPC" title="Risk Averse MPC" src="images/portfolio/risk.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Risk-averse control</h5>
+                                        <p>of nonlinear Markovian systems</p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+                        </div>
+                    </div> <!-- item end -->
+                </div>
+
+                <div class="nine columns main-col">
+                    <div class="row item">
+                        <div class="twelve columns">
+                            <h2>Risk-averse Model Predictive Control</h2>
+                            <p><a href="https://arxiv.org/abs/1704.00342" target="_blank">Risk-averse model predictive control</a> 
+                                (MPC) offers a control framework that 
+                                allows one to account for ambiguity in the knowledge of the underlying 
+                                probability distribution and unifies stochastic and worst-case MPC.</p>
+                                
+                            <p>Risk-averse MPC can be employed in presence of <strong>ambiguity</strong>
+                                on the knowledge of the actual probability distribution of the system 
+                                disturbances.</p>
+                            
+                            <p>We have studied risk-averse MPC problems for constrained nonlinear 
+                                Markovian switching systems using generic cost functions, and derive 
+                                <strong>Lyapunov-type risk-averse stability conditions</strong> by leveraging the properties of 
+                                risk-averse <strong>dynamic programming operators</strong>.</p>
+                            
+                            <p>We propose a controller design procedure to design risk-averse 
+                                stabilizing terminal conditions for constrained 
+                                nonlinear Markovian switching systems.</p>
+
+
+                            <p>Additionally, we cast the resulting 
+                                risk-averse optimal control problem in a favourable form which can be solved 
+                                efficiently and thus deems risk-averse MPC suitable for embedded applications.</p>
+                            
+                            <p>A <strong><a href="javascript:alert('coming soon')">toolbox</a></strong> will be soon released that will allow the formulation
+                                and solution of general risk-averse problems with <strong>risk constraints</strong>.</p>
+                        </div>
+                    </div> <!-- item end -->
+                </div> <!-- main-col end -->
+            </div>
 
 
             <!-- RapidNet
@@ -712,7 +773,8 @@
                     <div class="row item">
                         <div class="twelve columns">
                             <h2>RapidNet</h2>
-                            <p>RapidNet is an open-source software written in CUDA-C++ 
+                            <p><a href="https://github.com/gpuengineering/rapidnet" target="_blank">RapidNet</a> 
+                                is an open-source software written in CUDA-C++ 
                                 involving open-source libraries (cuBLAS and rapidjson) 
                                 which allows the easy design of stochastic model predictive 
                                 controllers for drinking water networks taking into account 
@@ -947,7 +1009,7 @@
 
 
             <!-- Modal Popup
-                     ============================================= -->
+                 ============================================= -->
 
             <!-- MODAL 00: JQ  -->
             <div id="modal-00" class="popup-modal mfp-hide">
@@ -1048,6 +1110,19 @@
                     <a class="popup-modal-dismiss">Close</a>
                 </div>
             </div><!-- modal-05 End -->
+
+            <div id="modal-risk" class="popup-modal mfp-hide">
+                <div class="description-box">
+                    <h4>Risk-averse MPC</h4>
+                    <p>Lalala</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Software, Optimization, Control</span>
+                </div>
+
+                <div class="link-box">
+                    <a href="https://github.com/kul-forbes/nmpc-codegen" target="_blank">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+            </div><!-- modal-05 End -->
         </section> <!-- SW Projects Section End-->
 
 
@@ -1140,7 +1215,7 @@
                                 <li>
                                     <blockquote>
                                         <p>One can imagine that the ultimate mathematician is one who can see analogies between analogies.</p>
-                                        <cite><a href="https://en.wikipedia.org/wiki/Stefan_Banach">S. Banach, 1982-1945</a></cite>
+                                        <cite><a href="https://en.wikipedia.org/wiki/Stefan_Banach">S. Banach, 1892-1945</a></cite>
                                     </blockquote>
                                 </li>
 
