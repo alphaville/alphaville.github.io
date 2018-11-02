@@ -3,4 +3,12 @@
 User-agent: *
 Disallow: /js/
 Disallow: /errata/
+Disallow: /index.original.html
+Disallow: /my.bib.txt
+Disallow: /README.md
+Disallow: /google*.html
+Disallow: /images/3d529db2-de9d-11e8-9f32-f2801f1b9fd2.png
+Disallow: /images/header-background.jpg
+Disallow: /images/testimonials-bg.jpg
+Disallow: /images/portfolio/
 Sitemap: https://alphaville.github.io/sitemap.xml
