@@ -11,12 +11,13 @@ ISSN={2473-3504},
 month={July}
 }
 
-@article{SopHerBemPat18,
+@article{SopHerBemPat19,
 author="P. Sopasakis and D. Herceg and A. Bemporad and P. Patrinos",
 title="Risk-averse model predictive control",
 year="2018",
 journal = "Automatica",
-note="Accepted for publication",
+volume="100",
+pages="281-288",
 url="https://arxiv.org/abs/1704.00342"
 }
 
